@@ -92,7 +92,7 @@ extension Double {
     /// ```
     func formattedWithAbbrivations() -> String  {
          let num = abs(Double(self))
-        let sign = (self < 0) ? "-" : "-"
+        let sign = (self < 0) ? "" : ""
         
         switch num {
         case 1_000_000_000_000...:
