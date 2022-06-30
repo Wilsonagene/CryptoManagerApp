@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02EB2C33286E0DA700B01414 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB2C32286E0DA700B01414 /* HapticManager.swift */; };
 		4D4EAFDB2848CA58007331A2 /* HomeStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EAFDA2848CA58007331A2 /* HomeStatView.swift */; };
 		4D4EAFDD2848D780007331A2 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EAFDC2848D780007331A2 /* MarketDataModel.swift */; };
 		4D4EAFDF2848EFE2007331A2 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EAFDE2848EFE2007331A2 /* MarketDataService.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02EB2C32286E0DA700B01414 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		4D4EAFDA2848CA58007331A2 /* HomeStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatView.swift; sourceTree = "<group>"; };
 		4D4EAFDC2848D780007331A2 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		4D4EAFDE2848EFE2007331A2 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			children = (
 				4DBB8FBE28479B0A001A9A72 /* NetworkingManager.swift */,
 				4D7B1CBB2847DF3E0014429F /* LocalFileManager.swift */,
+				02EB2C32286E0DA700B01414 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				4D7B1CC02847FE060014429F /* UIApplication.swift in Sources */,
 				4DBB8FAC28464201001A9A72 /* CircleButtonView.swift in Sources */,
 				4DBB8FA228463A11001A9A72 /* Color.swift in Sources */,
+				02EB2C33286E0DA700B01414 /* HapticManager.swift in Sources */,
 				4D4EAFDB2848CA58007331A2 /* HomeStatView.swift in Sources */,
 				4D7B1CBE2847EFBC0014429F /* SearchBarView.swift in Sources */,
 				4DBB8FBF28479B0B001A9A72 /* NetworkingManager.swift in Sources */,
@@ -465,7 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WilsonCryptoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = XJ9ZP8G48N;
+				DEVELOPMENT_TEAM = YU3BW35RYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -495,7 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WilsonCryptoApp/Preview Content\"";
-				DEVELOPMENT_TEAM = XJ9ZP8G48N;
+				DEVELOPMENT_TEAM = YU3BW35RYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
