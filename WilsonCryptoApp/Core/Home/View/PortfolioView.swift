@@ -13,6 +13,7 @@ struct PortfolioView: View {
     @State private var seletedCoin: CoinModel? = nil
     @State private var quantityText: String = ""
     @State private var showCheckmark : Bool = false
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
 //      let _ =  Self._printChanges()
@@ -32,7 +33,7 @@ struct PortfolioView: View {
             .toolbar(content: {
         ToolbarItem(placement: .navigationBarLeading) {
 //            let _ =  Self._printChanges()
-                XmarkButton()
+            XmarkButton(presentationMode: _presentationMode)
                     }
         ToolbarItem(placement: .navigationBarTrailing) {
             saveButton

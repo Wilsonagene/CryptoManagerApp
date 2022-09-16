@@ -21,6 +21,11 @@ struct DetailLodingView: View {
 struct DetailsView: View {
     
     @StateObject var vm: DetailViewModel
+    private let columns: [GridItem] = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    private let Spacing: CGFloat = 30
     
     
     init(coin: CoinModel) {
@@ -29,12 +34,95 @@ struct DetailsView: View {
     }
     
     var body: some View {
-                Text("hello👋")
+        ScrollView {
+            VStack {
+                ChartView(coin: vm.coin)
+                    .padding(.vertical)
+                VStack(spacing: 20) {
+                    overviewTitle
+                    Divider()
+                    overviewGrid
+                   additionalTitle
+                    Divider()
+                     additionalGrid
+                   
+                }.padding()
+            }
+            
+            
+            
+        }
+        .navigationTitle(vm.coin.name)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                NaivigationBarTrailingItems
+            }
+        }
     }
 }
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView(coin: dev.coin)
+        NavigationView {
+            DetailsView(coin: dev.coin)
+        }
+        
+    }
+}
+
+
+extension DetailsView {
+    
+    
+    private var NaivigationBarTrailingItems: some View {
+        HStack {
+            Text(vm.coin.symbol.uppercased())
+                .font(.headline)
+            .foregroundColor(Color.theme.secondaryText)
+            CoinImageView(coin: vm.coin)
+                .frame(width: 25, height: 25)
+            
+        }
+    }
+    
+    private var overviewTitle: some View {
+        Text("Overview")
+            .font(.title)
+            .bold()
+            .foregroundColor(Color.theme.accent)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+    
+    private var additionalTitle: some View {
+        Text("Additional Details")
+            .font(.title)
+            .bold()
+            .foregroundColor(Color.theme.accent)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+    
+    
+    private var overviewGrid: some View {
+        LazyVGrid(
+            columns: columns,
+            alignment: .leading,
+            spacing: Spacing,
+            pinnedViews: []) {
+                ForEach(vm.overviewStatistic) { stat in
+                    StatisticView(stat: stat)
+                }
+            }
+    }
+    
+    private var additionalGrid: some View {
+        LazyVGrid(
+            columns: columns,
+            alignment: .leading,
+            spacing: Spacing,
+            pinnedViews: []) {
+                ForEach(vm.additionalStatistic) { stat in
+                    StatisticView(stat: stat)
+                }
+            }
     }
 }
