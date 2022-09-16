@@ -79,6 +79,7 @@ class HomeViewModel: ObservableObject {
         HapticManager.notification(type: .success)
     }
     
+    
     private func filterAndSortCoins(Text: String, coins: [CoinModel], sort: SortOption) -> [CoinModel] {
         var updatedCoins = filterCoins(Text: Text, coins: coins)
         sortCoins(sort: sort, coins: &updatedCoins)

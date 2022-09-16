@@ -23,11 +23,13 @@ class CoinImageService {
         self.coin = coin
         self.ImageName = coin.id
         getCoinImage()
+        
     }
     
     private func getCoinImage() {
         if let savedImage = FileManager.getImage(imageName: ImageName, FolderName: FolderName) {
             image = savedImage
+
             print("Retrieved image from File Manager!")
         } else {
             downloadCoinImage()

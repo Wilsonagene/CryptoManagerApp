@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		028B479928D47A3E00525C3C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B479828D47A3E00525C3C /* Date.swift */; };
+		028B479B28D49DE700525C3C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B479A28D49DE700525C3C /* String.swift */; };
 		0297AF3F28AB916300992020 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297AF3E28AB916300992020 /* ChartView.swift */; };
 		02AD0EC728A25ABD00E18782 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AD0EC628A25ABD00E18782 /* Launch Screen.storyboard */; };
 		02EB2C33286E0DA700B01414 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EB2C32286E0DA700B01414 /* HapticManager.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		028B479828D47A3E00525C3C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		028B479A28D49DE700525C3C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0297AF3E28AB916300992020 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		02AD0EC628A25ABD00E18782 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		02EB2C32286E0DA700B01414 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				4DBB8FB628476470001A9A72 /* Double.swift */,
 				4D7B1CBF2847FE060014429F /* UIApplication.swift */,
 				028B479828D47A3E00525C3C /* Date.swift */,
+				028B479A28D49DE700525C3C /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				4D4EAFDF2848EFE2007331A2 /* MarketDataService.swift in Sources */,
 				4DBB8FAE28466F62001A9A72 /* CircleButtonAnimationView.swift in Sources */,
 				4D7B1CBA2847D0950014429F /* CoinImageViewModel.swift in Sources */,
+				028B479B28D49DE700525C3C /* String.swift in Sources */,
 				4DBB8FB5284748AA001A9A72 /* PreviewProvider.swift in Sources */,
 				4DC358682849EFF900694FE9 /* PortfolioView.swift in Sources */,
 				4DBB8FB728476470001A9A72 /* Double.swift in Sources */,

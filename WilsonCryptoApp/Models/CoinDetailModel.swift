@@ -25,6 +25,10 @@ struct CoinDetailModel: Codable {
         case hashingAlgorithm = "hashing_algorithm"
     }
     
+    var ReadableDiscription: String! {
+        return description?.en?.removingHTMLOccurance
+    }
+    
 }
 // MARK: - Links
 struct Links: Codable {
