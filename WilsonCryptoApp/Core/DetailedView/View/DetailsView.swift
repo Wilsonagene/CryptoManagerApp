@@ -125,7 +125,8 @@ extension DetailsView {
                                 .font(.caption)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.blue)
-                        } .padding(.vertical, 0.1)
+                        }
+                        .padding(.vertical, 0.1)
                         
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
