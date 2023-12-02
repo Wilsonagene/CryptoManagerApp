@@ -76,9 +76,14 @@ class HomeViewModel: ObservableObject {
         isloading = true
         coinDataService.getCoins()
         marketDataService.getData()
-        HapticManager.notification(type: .success)
+//        HapticManager.notification(type: .success)
     }
     
+    func loadMore() {
+        isloading = true
+        coinDataService.getCoins()
+        HapticManager.notification(type: .success)
+    }
     
     private func filterAndSortCoins(Text: String, coins: [CoinModel], sort: SortOption) -> [CoinModel] {
         var updatedCoins = filterCoins(Text: Text, coins: coins)

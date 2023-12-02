@@ -17,7 +17,7 @@ struct HomeView: View {
     @State private var showdetailView: Bool = false 
     
     var body: some View {
-        ZStack {
+    ZStack {
             // background layer
             Color.theme.background
                 .ignoresSafeArea()
@@ -120,6 +120,16 @@ extension HomeView {
                         segue(coin: coin)
                     }
             }
+            
+//            ProgressView()
+            LoaderView()
+                .padding(.leading)
+                .frame(maxWidth: .infinity)
+                .onAppear(perform: {
+                    vm.loadMore()
+                })
+                
+            
         }
         .listStyle(PlainListStyle())
         

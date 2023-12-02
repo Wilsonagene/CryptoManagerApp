@@ -48,6 +48,7 @@
 		4DC3586C284A01FB00694FE9 /* CoinlogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3586B284A01FB00694FE9 /* CoinlogoView.swift */; };
 		4DC3586F284A490100694FE9 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3586D284A490100694FE9 /* PortfolioContainer.xcdatamodeld */; };
 		4DC35871284A49D100694FE9 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC35870284A49D100694FE9 /* PortfolioDataService.swift */; };
+		C88D247E2B03B12E00FCBB2C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D247D2B03B12E00FCBB2C /* LoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		4DC3586B284A01FB00694FE9 /* CoinlogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinlogoView.swift; sourceTree = "<group>"; };
 		4DC3586E284A490100694FE9 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		4DC35870284A49D100694FE9 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		C88D247D2B03B12E00FCBB2C /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				029E119C28D5D53800C2960F /* SettingsView.swift */,
+				C88D247D2B03B12E00FCBB2C /* LoaderView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				4D7B1CBA2847D0950014429F /* CoinImageViewModel.swift in Sources */,
 				028B479B28D49DE700525C3C /* String.swift in Sources */,
 				4DBB8FB5284748AA001A9A72 /* PreviewProvider.swift in Sources */,
+				C88D247E2B03B12E00FCBB2C /* LoaderView.swift in Sources */,
 				4DC358682849EFF900694FE9 /* PortfolioView.swift in Sources */,
 				4DBB8FB728476470001A9A72 /* Double.swift in Sources */,
 				4D7B1CB82847C9E20014429F /* CoinImageService.swift in Sources */,

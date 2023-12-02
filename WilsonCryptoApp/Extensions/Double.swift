@@ -19,6 +19,7 @@ extension Double {
     private var currencyFormatter2: NumberFormatter {
         let formatter = NumberFormatter()
         formatter.usesGroupingSeparator = true
+        formatter.locale = Locale(identifier: "en_US") /// to make my currency dollar $ ( to assing country)
         formatter.numberStyle = .currency
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 2
@@ -45,6 +46,7 @@ extension Double {
     private var currencyFormatter6: NumberFormatter {
         let formatter = NumberFormatter()
         formatter.usesGroupingSeparator = true
+        formatter.locale = Locale(identifier: "en_US") /// to make my currency dollar $ ( to assing country)
         formatter.numberStyle = .currency
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 6

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "103AD8A3-9A9E-4C72-8311-2CDD330FE0D0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68B1DBEA-453A-4711-9DF3-4CB059CE5983"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WilsonCryptoApp/Core/Home/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "ColumnTitle"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59DBDC17-03F3-4E27-BB92-3FE0DF072867"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WilsonCryptoApp/Core/Home/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "segue(coin:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WilsonCryptoApp/Core/Home/View/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "ColumnTitle"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 17e681e96ee3f0ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "1980">
+               </Location>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 10fb131ad0a978d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Crypto_Manager_App.CoinModel&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 17e681e96ee3f0ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 10fb131ad0a978d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Crypto_Manager_App.CoinModel&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 17e681e96ee3f00c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1312">
+               </Location>
+               <Location
+                  uuid = "D7833837-EF86-4740-8DB6-7F117D6101E3 - 10fb131ad0a978fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Crypto_Manager_App.CoinModel&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in Crypto_Manager_App.HomeView.portfolioCoinsList.getter : some"
+                  moduleName = "Crypto Manager App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wilson/Documents/Workspace/CryptoManagerApp/WilsonCryptoApp/Core/Home/View/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
