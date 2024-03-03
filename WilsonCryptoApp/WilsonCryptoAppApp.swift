@@ -11,6 +11,7 @@ import SwiftUI
 struct WilsonCryptoAppApp: App {
     
     @StateObject private var vm = HomeViewModel()
+    @State private var showluanchview: Bool = true
     
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent) ]
@@ -19,13 +20,26 @@ struct WilsonCryptoAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeView()
-//                XmarkButton()
-//                PortfolioView()
-                    .navigationBarHidden(true)
+            
+            ZStack {
+                NavigationView {
+                    HomeView()
+                        .navigationBarHidden(true)
+                }
+                .environmentObject(vm)
+                
+                ZStack {
+                    if showluanchview {
+                        LaunchView(showluanchView: $showluanchview)
+                            .transition(.move(edge: .leading))
+                    }
+                }
+                .zIndex(2.0)
+                
+               
             }
-            .environmentObject(vm)
+            
+           
         }
     }
 }

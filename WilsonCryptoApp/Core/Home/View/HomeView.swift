@@ -159,7 +159,7 @@ extension HomeView {
             HStack(spacing: 4) {
                Text("Coins")
                 Image(systemName: "chevron.down")
-            .opacity((vm.sortOption == .rank || vm.sortOption == .rankReversed ) ? 1.0 : 0.0)
+            .opacity((vm.sortOption == .rank || vm.sortOption == .rankReversed ) ? 1.0 : 5.0)
             .rotationEffect(Angle(degrees:  vm.sortOption == .rank ? 0 : 180  ))
           }
             .onTapGesture {
@@ -186,7 +186,7 @@ extension HomeView {
             HStack(spacing: 4) {
                 Text("Price")
                 Image(systemName: "chevron.down")
-                    .opacity((vm.sortOption == .price || vm.sortOption == .priceReversed ) ? 1.0 : 0.0)
+                    .opacity((vm.sortOption == .price || vm.sortOption == .priceReversed ) ? 1.0 : 5.0)
                     .rotationEffect(Angle(degrees:  vm.sortOption == .price ? 0 : 180  ))
           }
            .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
